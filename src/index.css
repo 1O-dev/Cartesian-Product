@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-curves:"Birthstone",cursev;
+}
