@@ -125,7 +125,7 @@ const App = () => {
           <p className="overflow-x-auto text-center">{result}</p>
         </div>
       </div>
-      <h1 className="flex items-center gap-3" >Made by Omar Mokhtar <a href="https://github.com/1O-dev/Cartesian-Product"><IoLogoGithub className="scale-150"/></a></h1>
+      <h1 className="flex items-center gap-3" >Made by Omar Mokhtar <a href="https://github.com/1O-dev/Cartesian-Product" target="_blank"><IoLogoGithub className="scale-150"/></a></h1>
     </div>
   );
 };
