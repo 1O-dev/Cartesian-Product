@@ -45,7 +45,6 @@ const App = () => {
       SetResult("Syntax Error : Don't duplicate items in the set");
       return;
     }
-    console.log(xArr, yArr);
 
     let resultArr = []
     
@@ -54,7 +53,6 @@ const App = () => {
         resultArr.push(`(${xPoint},${yPoint})`)
       }
     }
-    console.log(resultArr)
     SetResult(resultArr.join(" , "))
 
   },[x,y]);
