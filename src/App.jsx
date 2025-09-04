@@ -22,9 +22,11 @@ const App = () => {
       x.includes(",,") ||
       y.includes(",,") ||
       x.trim().endsWith(",") ||
-      y.trim().endsWith(",")
+      y.trim().endsWith(",")||
+      x.trim().startsWith(",")||
+      y.trim().startsWith(",")
     ){
-      SetResult("Syntax Error : Don't duplicate comas or end the set with it")
+      SetResult("Syntax Error : Don't duplicate comas , end or start the set with it")
       return;
     }
       
